@@ -11,7 +11,7 @@ const Navbar = () => {
             <NavLink to='/about-us' className='me-3 ms-auto' style={({isActive}) => {return {color: isActive ? 'white' : '#0d6efd', textDecoration: 'none'}}}>About us</NavLink>
             <NavLink to='/media-assets' className='me-3 ms-3' style={({isActive}) => {return {color: isActive ? 'white' : '#0d6efd', textDecoration: 'none'}}}>Media assets</NavLink>
             <NavLink to='/product-releases' className='me-3 ms-3' style={({isActive}) => {return {color: isActive ? 'white' : '#0d6efd', textDecoration: 'none'}}}>Product releases</NavLink>
-            <NavLink to='/contact' className='me-3 ms-3' style={({isActive}) => {return {color: isActive ? 'white' : '#0d6efd', textDecoration: 'none'}}}>Contact</NavLink>
+            <NavLink to='/contact' className='me-5 ms-3' style={({isActive}) => {return {color: isActive ? 'white' : '#0d6efd', textDecoration: 'none'}}}>Contact</NavLink>
         </nav>
     )
 }
