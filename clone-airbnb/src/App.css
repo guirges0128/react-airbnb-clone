@@ -1,3 +1,4 @@
+
 footer {
     background-color: #f7f7f7;
 }
@@ -64,4 +65,94 @@ footer {
     margin-right: 20px;
 }
 
+.description {
+    text-decoration: none;
+    color: #212529;
+}
 
+.description:hover {
+    text-decoration: underline;
+    color: #212529;
+}
+
+#hero {
+    padding: 0 80px;
+}
+
+.aspectRatioBox {
+    padding-top: calc(4974 / 3320  * 100);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#headerBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.menu{
+    padding: 0 12px;
+}
+
+.menu:hover {
+    color: #0d6efd !important;
+}
+
+#lastMenu {
+    margin-right: 5.5rem;
+}
+
+.navbar-brand {
+    margin-left: 4.5rem;
+}
+
+.line-spacer {
+    line-height: 1rem;
+    position: relative;
+}
+
+.bording {
+    border-right: 1px solid #d2d0d0;
+}
+
+.headlineNews {
+    text-decoration: none;
+    color: #212529;
+}
+
+.date {
+    padding-top: 0.5rem;
+}
+
+.headlineNews:hover {
+    color: #212529;
+    text-decoration: underline;
+}
+
+
+#mediaBox {
+    display: inline-block;
+    position: absolute;
+    left: 50;
+    right: 0;
+}
+
+@media (max-width: 61.99875rem) {
+    .menu {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #mediaBox {
+        position: relative;
+        display: block;
+        padding-top: 3rem;
+    }
+    .bording {
+        border-right: none;
+    }
+}
